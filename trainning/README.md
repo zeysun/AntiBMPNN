@@ -1,7 +1,7 @@
 # AntiBMPNN
    To train/retrain AntiBMPNN clone this GitHub repo.
    Note: Before training, ensure your GPU driver has been installed properly.<br>
-   The training data used to train AntiBMPNN can be downloaded here: `Zenodo link`.<br>
+   The training data used to train AntiBMPNN can be downloaded here: `https://zenodo.org/records/13387792/files/training_set.zip`.<br>
    The dataset structure is the same as ProtenMPNN\`s and detailed info can be found here: `https://github.com/dauparas/ProteinMPNN/blob/main/training/README.md`.<br>
    Briefly, there are serval file types in the training set:<br>
 ```
