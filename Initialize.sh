@@ -4,7 +4,7 @@ if [ "$CURRENT_DIR" == "AntiBMPNN" ]; then
     conda create -n mlfold python=3.11 numpy pandas torch peptides scikit-learn tqdm&& conda activate mlfold
     mkdir antibmpnn_model_weights
     cd antibmpnn_model_weights
-    wget https://zenodo.org/records/13381914/files/model_weights.zip
+    wget https://zenodo.org/records/13387792/files/model_weights.zip
     unzip model_weights.zip 
     rm model_weights.zip
     cd ..
