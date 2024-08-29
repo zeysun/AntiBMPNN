@@ -23,7 +23,7 @@ Detailed output file can be found after running the `example_scripts.sh`.
 * `PD3_charge` - The charge properties at pH 7.4.
 * `Changes` - Summary of the difference between input and output sequences.
 
-##Model weigts and training sets<br>
+## Model weigts and training sets<br>
 
 Link for AntiBMPNN model weights: https://zenodo.org/records/13387792/files/model_weights.zip<br>
 Link for AntiBMPNN training sets: https://zenodo.org/records/13387792/files/training_set.zip
