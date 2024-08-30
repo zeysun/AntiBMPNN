@@ -1,5 +1,18 @@
 # AntiBMPNN
 
+This is the repo of AntiBMPNN project, for antibody sequence design.
+
+<p align="center">
+<img width="350" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_1.jpg">
+</p>
+
+## AntiBMPNN performance
+
+AntiBMPNN has a better sequence recovery rate.
+<p align="center">
+<img width="650" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_3.jpg">
+</p>
+
 ## Install and set up python environment
 
 1. Clone this repo to your local computer
@@ -27,3 +40,8 @@ Detailed output file can be found after running the `example_scripts.sh`.
 
 Link for AntiBMPNN model weights: https://zenodo.org/records/13387792/files/model_weights.zip<br>
 Link for AntiBMPNN training sets: https://zenodo.org/records/13387792/files/training_set.zip
+
+Training performance:
+<p align="center">
+<img width="550" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_2.jpg">
+</p>
