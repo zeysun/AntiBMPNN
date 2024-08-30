@@ -20,7 +20,7 @@ AntiBMPNN has a better sequence recovery rate.
 3. Then user can go to example folder and run `example_scripts.sh` to check if everything goes well.
 4. Create a new folder within the **"input"** directory and place your antibody PDB file there. Update the corresponding variables in the `example_scripts.sh` file, and then proceed with your design.
 ## Example output
-Detailed output file can be found after running the `example_scripts.sh`.
+Detailed output file can be found after running the `example_scripts.sh`, along with the sequence files.
 
 | Positions(94-110) | Recovery | Frequency | PD1_volume | PD2_hydro | PD3_charge | Changes                                                                                  |
 |--------------------|----------|-----------|------------|-----------|------------|------------------------------------------------------------------------------------------|
