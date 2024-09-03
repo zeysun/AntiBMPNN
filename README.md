@@ -3,14 +3,14 @@
 This is the repo of AntiBMPNN project, for antibody sequence design.
 
 <p align="center">
-<img width="350" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_1.jpg">
+<img width="450" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_1.jpg">
 </p>
 
 ## AntiBMPNN performance
 
 AntiBMPNN has a better sequence recovery rate.
 <p align="center">
-<img width="650" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_3.jpg">
+<img width="750" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_3.jpg">
 </p>
 
 ## Install and set up python environment
@@ -43,5 +43,5 @@ Link for AntiBMPNN training sets: https://zenodo.org/records/13387792/files/trai
 
 Training performance:
 <p align="center">
-<img width="550" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_2.jpg">
+<img width="650" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_2.jpg">
 </p>
