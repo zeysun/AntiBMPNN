@@ -3,7 +3,7 @@
 This is the repo of AntiBMPNN project, for antibody sequence design.
 
 <p align="center">
-<img width="450" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_1.jpg">
+<img width="550" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_1.jpg">
 </p>
 
 ## AntiBMPNN performance
