@@ -10,7 +10,7 @@ This is the repo of AntiBMPNN project, for antibody sequence design.
 
 1.Make sure you have installed **conda** or **miniconda** in a **Linux** system(or **WSL**). <br>
 2. `git clone https://github.com/zeysun/AntiBMPNN`  --Clone this repo to your local computer.<br>
-3. `bash Initialize.sh`  -- This scriot will automatically build a python environment via conda and download packages and model weights.<br>
+3. `cd AntiBMPNN && bash Initialize.sh`  -- This scriot will automatically build a python environment via conda and download packages and model weights.<br>
 4. Then user can go to example folder and run example_scripts.sh to check if everything goes well.<br>
   `cd example/`<br>
   `bash example_scripts.sh`<br>
