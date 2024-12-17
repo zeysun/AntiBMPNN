@@ -6,15 +6,51 @@ This is the repo of AntiBMPNN project, for antibody sequence design.
 <img width="550" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_1.jpg">
 </p>
 
-## Install and set up python environment
+## Installation
+### Requirements: 
+#### Hardware Requirement:
+AntiBMPNN can run on both **CPU** and **GPU**. For optimal performance, using an NVIDIA graphics card is recommended.  
+#### System Requirement:
+A **Linux** based operating system is required.   
+We have tested our code on both **Ubuntu** system and [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install).   
+  
+An [Anaconda python environment](https://www.anaconda.com/download) or [Miniconda python environment](https://docs.anaconda.com/miniconda/install/) is recommend.
+- Python >= 3.11
+- numpy
+- pandas
+- torch
+- peptides
+- scikit-learn
+- tqdm
+  
+### 1. Obtaining AntiBMPNN Source Code
+Download the AntiBMPNN repository:  
+```sh
+git clone https://github.com/zeysun/AntiBMPNN
+```
 
-1.Make sure you have installed **conda** or **miniconda** in a **Linux** system(or **WSL**). <br>
-2. `git clone https://github.com/zeysun/AntiBMPNN`  --Clone this repo to your local computer.<br>
-3. `cd AntiBMPNN && bash Initialize.sh`  -- This scriot will automatically build a python environment via conda and download packages and model weights.<br>
-4. Then user can go to example folder and run example_scripts.sh to check if everything goes well.<br>
-  `cd example/`<br>
-  `bash example_scripts.sh`<br>
-5. Create a new folder in the **"input"** directory and place your antibody PDB file there. Update the corresponding variables in the `example_scripts.sh` file, and then proceed with your design.<br>
+### 2. One-step Installation (recommended way)
+We provided an auto-install bash script. This script will automatically build a python environment via conda and download packages and model weights.
+```sh
+cd AntiBMPNN  
+bash Initialize.sh
+```
+#### Manual Installation
+If you have completed the one-step installation, you can skip the manual installation step. This section is provided for reference, just in case.
+```sh
+conda create -n mlfold python=3.11
+conda antivate mlfold
+pip install numpy pandas torch peptides scikit-learn tqdm
+```
+### 3. Run Sample Script
+Then user can go to example folder and run example_scripts.sh to check if everything goes well.  
+```sh
+cd example/  
+bash example_scripts.sh
+```
+### 4. Make New Design
+
+Create a new folder in the **"input"** directory and place your antibody PDB file there. Update the corresponding variables in the `example_scripts.sh` file, and then proceed with your design.  
    
 ## AntiBMPNN performance
 
