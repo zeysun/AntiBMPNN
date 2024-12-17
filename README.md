@@ -6,19 +6,22 @@ This is the repo of AntiBMPNN project, for antibody sequence design.
 <img width="550" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_1.jpg">
 </p>
 
+## Install and set up python environment
+
+1.Make sure you have installed **conda** or **miniconda** in a **Linux** system(or **WSL**). <br>
+2. `git clone https://github.com/zeysun/AntiBMPNN`  --Clone this repo to your local computer.<br>
+3. `bash Initialize.sh`  -- This scriot will automatically build a python environment via conda and download packages and model weights.<br>
+4. Then user can go to example folder and run example_scripts.sh to check if everything goes well.<br>
+  `cd example/`<br>
+  `bash example_scripts.sh`<br>
+5. Create a new folder in the **"input"** directory and place your antibody PDB file there. Update the corresponding variables in the `example_scripts.sh` file, and then proceed with your design.<br>
+   
 ## AntiBMPNN performance
 
 AntiBMPNN has a better sequence recovery rate.
 <p align="center">
 <img width="750" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_3.jpg">
 </p>
-
-## Install and set up python environment
-
-1. Clone this repo to your local computer
-2. run `Initialize.sh` to automatically build a python environment via conda(make sure you have installed) and download packages and model weights.
-3. Then user can go to example folder and run `example_scripts.sh` to check if everything goes well.
-4. Create a new folder within the **"input"** directory and place your antibody PDB file there. Update the corresponding variables in the `example_scripts.sh` file, and then proceed with your design.
 ## Example output
 Detailed output file can be found after running the `example_scripts.sh`, along with the sequence files.
 
