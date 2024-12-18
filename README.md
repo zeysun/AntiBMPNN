@@ -57,11 +57,36 @@ bash example_scripts.sh
 ```
 ### 4. Make New Design
 
-Please see for detailed instruction for making new design. [HERE](https://github.com/zeysun/AntiBMPNN/blob/main/example/instruction.md)
+#### 1. Prepare Input Structures
+There are several ways to obtain an antibody 3D structure, such as searching on **PDB** or modeling via **AlphaFold3**, among others.  
+**AntiBMPNN** requires only the variable regions of the heavy or light chain in **PDB** file format as input.  
+To proceed, create a new directory at `~/AntiBMPNN/input` and copy the PDB file into that folder.  
+
+#### 2. Modification of Example Script  
+There are some necessary variables that **must** be changed, make sure to modify them before running:
+
+- pdb_file_path  
+- CHAINS_TO_DESIGN  
+- DESIGN_ONLY_POSITIONS  
+- THEME  
+
+You can also try to modify the following parameters to meet different design purposes. Please find and modify the corresponding variable values ​​in the script:  
+```
+    --model_name 
+    --num_seq_per_target 
+    --sampling_temp 
+    --batch_size 
+    --backbone_noise 
+```
+#### 3.In Silico Design Output  
+The output should appear in the `~/AntiBMPNN/example` folder, where the subfolder seqs contains the output raw sequence **fasta** file and the **csv** file contains the parsed and clustered sequence.
+
+#### 4.Validation
+Users can apply **AlphaFold3** to model the designed sequence. By integrating **frequency** information, they can determine which sequence to proceed with for experimental validation.
 
 ***
    
-## AntiBMPNN performance
+## AntiBMPNN Performance
 
 AntiBMPNN has a better sequence recovery rate.
 <p align="center">
@@ -84,7 +109,7 @@ Detailed output file can be found after running the `example_scripts.sh`, along 
 * `PD3_charge` - The charge properties at pH 7.4.
 * `Changes` - Summary of the difference between input and output sequences.
 
-## Model weigts and training sets<br>
+## Model Weigts and Training Sets<br>
 
 Link for AntiBMPNN model weights: https://zenodo.org/records/13387792/files/model_weights.zip<br>
 Link for AntiBMPNN training sets: https://zenodo.org/records/13387792/files/training_set.zip
