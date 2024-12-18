@@ -19,9 +19,9 @@
 AntiBMPNN can run on both **CPU** and **GPU**. For optimal performance, using an NVIDIA graphics card is recommended.  
 #### System Requirement: Linux & Conda
 A **Linux** based operating system is required.   
-We have tested our code on both **Ubuntu** system and [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install).   
+We have tested our code on both **Ubuntu** system and **[Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install)** (Click the link for installation instructions for Windows Subsystem for Linux (WSL).).   
   
-**An [Anaconda python environment](https://www.anaconda.com/download) or [Miniconda python environment](https://docs.anaconda.com/miniconda/install/) is **required**.**
+**An [Anaconda python environment](https://www.anaconda.com/download) or [Miniconda python environment](https://docs.anaconda.com/miniconda/install/) is **required**.(Click the link for installation instructions for Anaconda/Miniconda.)**
 - Python >= 3.11
 - numpy
 - pandas
