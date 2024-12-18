@@ -1,10 +1,17 @@
-# AntiBMPNN
+<p align="left">
+<img width="800" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/banner.jpg">  
+</p>  
 
-This is the repo of AntiBMPNN project, for antibody sequence design.
+###  This is the repo of AntiBMPNN project, for antibody sequence design.  
 
+***  
+
+## Protocol
 <p align="center">
 <img width="550" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_1.jpg">
 </p>
+
+
 
 ## Installation
 ### Requirements: 
@@ -50,7 +57,9 @@ bash example_scripts.sh
 ```
 ### 4. Make New Design
 
-Create a new folder in the **"input"** directory and place your antibody PDB file there. Update the corresponding variables in the `example_scripts.sh` file, and then proceed with your design.  
+Please see for detailed instruction for making new design. [HERE](https://github.com/zeysun/AntiBMPNN/blob/main/example/instruction.md)
+
+***
    
 ## AntiBMPNN performance
 
