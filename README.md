@@ -46,7 +46,7 @@ bash Initialize.sh
 If you have completed the one-step installation, you can skip the manual installation step. This section is provided for reference, just in case.
 ```sh
 conda create -n mlfold python=3.11
-conda antivate mlfold
+conda activate mlfold
 pip install numpy pandas torch peptides scikit-learn tqdm
 ```
 ### 3. Run Sample Script
