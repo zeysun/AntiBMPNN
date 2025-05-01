@@ -85,7 +85,14 @@ The output should appear in the `~/AntiBMPNN/example` folder, where the subfolde
 Users can apply **AlphaFold3** to model the designed sequence. By integrating **frequency** information, they can determine which sequence to proceed with for experimental validation.
 
 ***
-   
+## Sequence Judgement
+<p align="center">
+<img width="250" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_4.jpg">
+</p>
+A typical testing workflow involves designing a sufficiently large number of sequences, followed by clustering using the built-in scripts and analyzing the frequency associated with each unique sequence. Subsequently, AlphaFold3 is employed for structural modeling. Experimental validation is then prioritized based on a combination of modeling scores and the design frequency of each sequence.
+
+
+
 ## AntiBMPNN Performance
 
 AntiBMPNN has a better sequence recovery rate.
