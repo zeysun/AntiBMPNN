@@ -97,7 +97,7 @@ A typical testing workflow involves designing a sufficiently large number of seq
 
 AntiBMPNN has a better sequence recovery rate.
 <p align="center">
-<img width="750" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_3.jpg">
+<img width="750" src="https://github.com/zeysun/AntiBMPNN/blob/main/figures/AntiBMPNN_3re.jpg">
 </p>
 ## Example output
 Detailed output file can be found after running the `example_scripts.sh`, along with the sequence files.
